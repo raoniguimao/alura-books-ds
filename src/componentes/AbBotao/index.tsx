@@ -14,7 +14,7 @@ const BotaoEstilizado = styled.button<AbBotaoProps>`
     color: ${(props: AbBotaoProps) => props.tipo === 'primario' ? '#FFF' : '#EB9B00'};
     font-size: 20px;
     cursor: pointer;
-    ${(props: AbBotaoProps) => props.tipo === 'primario' 
+    ${(props: AbBotaoProps) => props.tipo === 'primario'
         ? css`
             &:hover {
                 background: #B87900;
@@ -22,15 +22,15 @@ const BotaoEstilizado = styled.button<AbBotaoProps>`
             }
         `
         : css`
-        &:hover {
-            background: #FFF;
-            border: 2px solid #B87900;
-            color: #B87900;
-        }
+            &:hover {
+                background: #FFF;
+                border: 2px solid #B87900;
+                color: #B87900;
+            }
         `
     }
 `
-export const AbBotao = ({ texto, onClick, tipo = 'primario' } : AbBotaoProps) => {
+export const AbBotao = ({ texto, onClick, tipo = 'primario' }: AbBotaoProps) => {
     return (<BotaoEstilizado onClick={onClick} tipo={tipo}>
         {texto}
     </BotaoEstilizado>)

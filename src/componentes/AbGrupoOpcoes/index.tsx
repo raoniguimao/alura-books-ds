@@ -26,7 +26,7 @@ const SectionEstilizada = styled.section<{ selecionado: boolean }>`
         font-size: 16px;
     }
     footer {
-        color: ${props => props.selecionado ? '#FFF' : 'rgba(0, 0, 0, 0.54)'};;
+        color: ${props => props.selecionado ? '#FFF' : 'rgba(0, 0, 0, 0.54)'};
         font-weight: 400;
         font-size: 12px;
     }
@@ -45,7 +45,7 @@ export interface AbGrupoOpcoesProps {
     onChange?: (opcao: AbGrupoOpcao) => void
 }
 
-export const AbGrupoOpcoes = ({ opcoes, onChange , valorPadrao} : AbGrupoOpcoesProps) => {
+export const AbGrupoOpcoes = ({ opcoes, onChange, valorPadrao }: AbGrupoOpcoesProps) => {
     const [selecao, setSelecao] = useState<AbGrupoOpcao | null>(valorPadrao ?? null)
     const aoSelecionar = (opcao: AbGrupoOpcao): void => {
         setSelecao(opcao);
@@ -53,9 +53,9 @@ export const AbGrupoOpcoes = ({ opcoes, onChange , valorPadrao} : AbGrupoOpcoesP
             onChange(opcao)
         }
     }
-    
+
     return (<>
-        {opcoes.map(opcao => 
+        {opcoes.map(opcao =>
             <SectionEstilizada
                 onClick={() => aoSelecionar(opcao)}
                 key={opcao.id}

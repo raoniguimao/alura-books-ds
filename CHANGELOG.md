@@ -2,11 +2,11 @@
 
 #### ⚠️ Pushed to `main`
 
-- adicionando github action (vinny@macbook.lan)
-- adicionando AbGrupoOpcoes (vinny@macbook.lan)
-- adicionando variantes do AbBotao (vinny@macbook.lan)
-- iniciando o projeto de design system (vinny@macbook.lan)
+- adicionando github action (raonirocha@gmail.com)
+- adicionando AbGrupoOpcoes (raonirocha@gmail.com)
+- adicionando variantes do AbBotao (raonirocha@gmail.com)
+- iniciando o projeto de design system (raonirocha@gmail.com)
 
 #### Authors: 1
 
-- Vinicios Neves (vinny@macbook.lan)
+- raoni rocha (raonirocha@gmail.com)

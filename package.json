@@ -37,7 +37,7 @@
 		"trailingComma": "es5"
 	},
 	"name": "alurabooks-raonirocha",
-	"author": "raonirocha",
+	"author": "raoni rocha",
 	"module": "dist/alurabooks-raonirocha.esm.js",
 	"size-limit": [
 		{
